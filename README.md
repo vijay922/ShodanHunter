@@ -15,17 +15,18 @@ ShodanHunter is a powerful reconnaissance tool that leverages [Shodan's Internet
 ## Installation
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/shodanhunter.git
-cd shodanhunter
+git clone https://github.com/vijay922/ShodanHunter.git
+cd ShodanHunter
 
 # Build the executable
-go build -o shodanhunter
+go build -o ShodanHunter.go
+mv ShodanHunter /usr/local/bin
 ```
 
 ## Usage
 ```sh
-./shodanhunter -ip <IP/CIDR> [OPTIONS]
-./shodanhunter -f <file> [OPTIONS]
+shodanhunter -ip <IP/CIDR> [OPTIONS]
+shodanhunter -f <file> [OPTIONS]
 ```
 
 ### Options:
