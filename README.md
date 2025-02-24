@@ -43,13 +43,13 @@ shodanhunter -f <file> [OPTIONS]
 ## Example Usage
 ```sh
 # Scan a single IP for open ports and CVEs
-./shodanhunter -ip 8.8.8.8 -ports -cves
+shodanhunter -ip 8.8.8.8 -ports -cves
 
 # Scan a CIDR range and display hostnames
-./shodanhunter -ip 192.168.1.0/24 -host
+shodanhunter -ip 192.168.1.0/24 -host
 
 # Scan multiple IPs from a file with 20 concurrent workers
-./shodanhunter -f targets.txt -concurrency 20
+shodanhunter -f ips.txt -concurrency 20
 ```
 
 ## How It Works
